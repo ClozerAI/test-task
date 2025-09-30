@@ -6,37 +6,6 @@ Your task is to build a minimal clone of ClozerAI’s **real-time assistance fea
 
 ---
 
-## Tech Stack
-
-Bootstrap with **T3 App** ([https://create.t3.gg/](https://create.t3.gg/)) and select:
-
-* **Typescript**
-* **Tailwind CSS:** Yes
-* **tRPC:** Yes
-* **Auth Provider:** NextAuth.js
-* **ORM:** Drizzle
-* **Next.js App Router:** Yes
-* **DB:** Postgres
-* **Formatting:** ESLint/Prettier
-
-APIs/Libraries:
-
-* **Speechmatics Real-Time** ([https://www.speechmatics.com/product/real-time](https://www.speechmatics.com/product/real-time)) for transcription
-* **Vercel AI SDK** ([https://ai-sdk.dev/docs/introduction](https://ai-sdk.dev/docs/introduction)) for OpenAI API
-
-Hosting:
-
-* App → **Vercel**
-* DB → **Vercel Postgres** or **Neon**
-
-API Keys:
-
-All of the services mentioned offer free trials except for the OpenAI API.
-
-To get an OpenAI API Key, please email jure@clozerai.com.
-
----
-
 ## Feature Set / Scope
 
 The application should provide the following:
@@ -71,5 +40,36 @@ The application should provide the following:
 5. **Deployment**
 
    * Deploy the web app to **Vercel**.
+
+---
+
+## Tech Stack
+
+Bootstrap with **T3 App** ([https://create.t3.gg/](https://create.t3.gg/)) and select:
+
+* **Typescript**
+* **Tailwind CSS:** Yes
+* **tRPC:** Yes
+* **Auth Provider:** NextAuth.js
+* **ORM:** Drizzle
+* **Next.js App Router:** Yes
+* **DB:** Postgres
+* **Formatting:** ESLint/Prettier
+
+APIs/Libraries:
+
+* **Speechmatics Real-Time** ([https://www.speechmatics.com/product/real-time](https://www.speechmatics.com/product/real-time)) for transcription
+* **Vercel AI SDK** ([https://ai-sdk.dev/docs/introduction](https://ai-sdk.dev/docs/introduction)) for OpenAI API
+
+Hosting:
+
+* App → **Vercel**
+* DB → **Vercel Postgres** or **Neon**
+
+API Keys:
+
+All of the services mentioned offer free trials except for the OpenAI API.
+
+To get an OpenAI API Key, please email jure@clozerai.com.
    * Deploy the database to **Vercel Postgres** or **Neon**.
    * Provide a working live URL.
