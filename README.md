@@ -1,4 +1,6 @@
-# ClozerAI Founding Engineer Take-Home — Real-Time AI Assistance
+# ClozerAI Founding Engineer Take-Home
+
+## Real-Time AI Assistance
 
 Your task is to build a minimal clone of ClozerAI’s **real-time assistance feature**. The goal is to demonstrate your ability to deliver a full-stack product using the required stack, while keeping the implementation lightweight and focused.
 
