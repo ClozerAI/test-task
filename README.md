@@ -2,6 +2,8 @@
 
 Your task is to build a minimal clone of ClozerAI’s **real-time assistance feature**. The goal is to demonstrate your ability to deliver a full-stack product using the required stack, while keeping the implementation lightweight and focused.
 
+**IMPORTANT**: Keep the implementation as simple as possible.
+
 ---
 
 ## Tech Stack
@@ -20,12 +22,18 @@ Bootstrap with **T3 App** ([https://create.t3.gg/](https://create.t3.gg/)) and s
 APIs/Libraries:
 
 * **Speechmatics Real-Time** ([https://www.speechmatics.com/product/real-time](https://www.speechmatics.com/product/real-time)) for transcription
-* **Vercel AI SDK** ([https://ai-sdk.dev/docs/introduction](https://ai-sdk.dev/docs/introduction)) for AI
+* **Vercel AI SDK** ([https://ai-sdk.dev/docs/introduction](https://ai-sdk.dev/docs/introduction)) for OpenAI API
 
 Hosting:
 
 * App → **Vercel**
 * DB → **Vercel Postgres** or **Neon**
+
+API Keys:
+
+All of the services mentioned offer free trials except for the OpenAI API.
+
+To get an OpenAI API Key, please email jure@clozerai.com.
 
 ---
 
@@ -40,8 +48,8 @@ The application should provide the following:
 
 2. **Audio Capture from Another Tab**
 
-   * In the browser, let the user pick an open tab and capture its **system audio**.
-   * Use `navigator.mediaDevices.getDisplayMedia` to capture audio.
+   * In the browser, let the user pick an open tab and capture its **audio**.
+   * Hint: Use `navigator.mediaDevices.getDisplayMedia` to capture audio.
 
 3. **Real-Time Transcription**
 
