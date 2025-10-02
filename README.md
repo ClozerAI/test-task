@@ -73,5 +73,3 @@ API Keys:
 All of the services mentioned offer free trials except for the OpenAI API.
 
 To get an OpenAI API Key, please email jure@clozerai.com.
-   * Deploy the database to **Vercel Postgres** or **Neon**.
-   * Provide a working live URL.
